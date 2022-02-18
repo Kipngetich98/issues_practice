@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[3]:
 
 
 board = [
@@ -25,7 +25,7 @@ def solve(bo):
         row, col = find
 
     for i in range(1,10):
-        if valid(bo, i, (row, col)):
+        if valid(bo, i, (row, col))
             bo[row][col] = i
 
             if solve(bo):
@@ -86,6 +86,12 @@ print_board(board)
 solve(board)
 print("___________________")
 print_board(board)
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
